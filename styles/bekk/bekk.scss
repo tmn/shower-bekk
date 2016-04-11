@@ -21,3 +21,28 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+h3 {
+  position: relative;
+  top: -30px;
+  overflow: hidden;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+h3::before {
+  margin-right: 100px;
+}
+
+h3::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  box-sizing: border-box;
+  margin-left: 20px;
+
+  height: 1px;
+  width: 100%;
+  background: #fff;
+}
