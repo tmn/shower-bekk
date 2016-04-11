@@ -1,0 +1,23 @@
+.bekk-logo {
+  background: url(https://intern.bekk.no/Forside/Content/img/logo.svg) no-repeat;
+  height: 13px;
+  width: 55px;
+  display: block;
+  background-size: auto 100%;
+  position: absolute;
+  left: 50%;
+  top: 45px;
+  transform: translateX(-50%);
+}
+
+.bekk-separator {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 3px;
+  background: $red;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
