@@ -1,24 +1,24 @@
 {
-  "name": "shower-ribbon",
-  "description": "Ribbon theme for Shower HTML presentation engine",
-  "version": "2.0.4",
+  "name": "shower-bekk",
+  "description": "BEKK theme for Shower HTML presentation engine",
+  "version": "1.0.0",
   "author": {
-    "name": "Vadim Makeev",
-    "url": "http://pepelsbey.net/"
+    "name": "Tri Nguyen",
+    "url": "http://tmn.io/"
   },
-  "homepage": "https://github.com/shower/ribbon",
+  "homepage": "https://github.com/tmn/shower-bekk",
   "repository": {
     "type": "git",
-    "url": "git://github.com/shower/ribbon.git"
+    "url": "git://github.com/tmn/shower-bekk.git"
   },
   "bugs": {
-    "url": "http://github.com/shower/shower/issues"
+    "url": "http://github.com/tmn/shower-bekk/issues"
   },
   "license": "MIT",
   "keywords": [
     "shower",
     "presentation",
-    "ribbon",
+    "bekk",
     "theme"
   ],
   "files": [
