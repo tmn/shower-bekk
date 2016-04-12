@@ -1,12 +1,12 @@
 # BEKK theme for Shower
 
-**Welcome to be BEKK Shower theme**
+**Welcome to be BEKK Shower theme!**
 
 The BEKK shower theme is a fork of the [Ribbon](http://github.com/shower/ribbon) theme for [Shower](https://github.com/shower/shower/) presentation engine. It is mainly used by employees of [BEKK Consulting AS](http://bekk.no/) and my own presentations run by BEKK.
 
 ## Usage
 
-If you want to install the BEKK shower theme separately you can download the [theme archive](http://shwr.me/ribbon.zip) or install the package:
+If you want to install the BEKK shower theme separately you can download the [theme archive](https://github.com/tmn/shower-bekk/releases/download/1.0.0/shower-bekk.zip) or install the package:
 
 	npm install shower-bekk
 
