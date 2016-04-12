@@ -1,6 +1,13 @@
-#cover {
-
-
+#cover::before {
+    content: "";
+    background: url(https://intern.bekk.no/Forside/Content/img/logo.svg) no-repeat;
+    height: 13px;
+    width: 55px;
+    background-size: auto 100%;
+    position: absolute;
+    left: 50%;
+    top: 55px;
+    transform: translateX(-50%);
 }
 
 #cover h1 {
@@ -16,18 +23,6 @@
   font-weight: normal;
   font-style: italic;
   margin-top: 30px;
-}
-
-.bekk-logo {
-  background: url(https://intern.bekk.no/Forside/Content/img/logo.svg) no-repeat;
-  height: 13px;
-  width: 55px;
-  display: block;
-  background-size: auto 100%;
-  position: absolute;
-  left: 50%;
-  top: 45px;
-  transform: translateX(-50%);
 }
 
 .bekk-separator {
