@@ -37,24 +37,34 @@
   margin-bottom: 20px;
 }
 
-ul.bekk-img-list li::before {
-  content: "";
-}
-.bekk-img-list {
+
+ul.bekk-img-list {
   text-align: center;
 }
 
-.bekk-img-list li {
+ul.bekk-img-list li::before {
+  content: "";
+}
+
+ul.bekk-img-list li {
   display: inline-block;
   margin-left: 15px;
   margin-right: 15px;
+  text-indent: 0;
 }
-.bekk-img-list img {
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;
 
+ul.bekk-img-list img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
 }
+
+ul.bekk-img-list figcaption {
+  font-family: Georgia, Serif;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
 
 h3 {
   position: relative;
