@@ -23,6 +23,45 @@
   margin-top: 30px;
 }
 
+
+#cover.modified {
+	box-sizing: border-box;
+	padding-top: 370px;
+}
+
+#cover.modified h1 {
+  text-align: left;
+  font-size: 55px;
+  margin: 0;
+  line-height: 63px;
+  text-transform: uppercase;
+}
+
+#cover.modified h1::before {
+	display: block;
+	height: 1px;
+	width: 100%;
+	border-top: 1px solid #555;
+	padding-top: 12px;
+	margin-top: 20px;
+	content: "";
+}
+
+#cover.modified h2 {
+  text-align: left;
+  margin: 0;
+  padding-left: 3px;
+}
+
+#cover.modified p {
+  font-size: 14px;
+  padding-left: 3px;
+}
+
+#cover.no-logo::before {
+	background: none;
+}
+
 .bekk-separator {
   position: relative;
   left: 50%;
